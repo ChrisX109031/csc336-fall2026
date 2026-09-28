@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(J&H.webp);
     /*background-size: cover;*/
     background-repeat: repeat;
@@ -6,32 +6,38 @@ body{
     background-size: 50% 100%;
     background-color: black;
 }
-h1{
+
+h1 {
     color: #40e313;
     font-family: "sans-serif", Bold;
     font-size: 24px;
     text-align: center;
     margin: 20px;
 }
-a:hover{
+
+a:hover {
     color: #40e313;
     text-decoration: underline;
 }
-.description{
+
+.description {
     color: #40e313;
     background-color: black;
     font-family: "Times New Roman", Bold;
     font-size: 16px;
 }
-#breakers{
-       height: 250px;
+
+#breakers {
+    height: 250px;
 
 }
-#breakers2{
-       height: 350px;
+
+#breakers2 {
+    height: 350px;
 
 }
-#hal{
+
+#hal {
     color: #40e313;
     background-color: black;
     font-family: "Times New Roman", Bold;
@@ -39,7 +45,8 @@ a:hover{
     margin: 20px;
     text-align: center;
 }
-#john{
+
+#john {
     color: #40e313;
     background-color: black;
     font-family: "Times New Roman", Bold;
@@ -47,26 +54,29 @@ a:hover{
     margin: 20px;
     text-align: center;
 }
-#changediv{
+
+#changediv {
     display: flex;
     align-items: stretch;
     width: 100%;
     height: 700px;
 }
-.portrait{
+
+.portrait {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     border-radius: 8px;
 }
-.junior{
+
+.junior {
     flex: 100;
-    background-color:  #40e313;
+    background-color: #40e313;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0,0, 0.1); 
-    border: 2px solid black; 
-    margin: 10px;   
-    border-radius: 12px;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 12px;
     text-align: center;
 
-} 
+}
