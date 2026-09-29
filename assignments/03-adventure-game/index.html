@@ -2,60 +2,15 @@
 
 <head>
     <title></title>
+     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="buttonDataDiv">
-
-    </div>
-    <div id="buttonsDiv"></div>
-
-    <!-- <button id="buttonOne" onclick="buttonClick(e)">One</button>
-        <button id="buttonTwo" onclick="buttonClick(e)">Two</button>
-        <button id="buttonThree" onclick="buttonClick(e)">Three</button>
-        <button id="buttonFour" onclick="buttonClick(e)">Four</button> -->
-    <!-- <button id="buttonOne" onclick="buttonOne()">One</button>
-        <button id="buttonTwo" onclick="buttonTwo()">Two</button>
-        <button id="buttonThree" onclick="buttonThree()">Three</button>
-        <button id="buttonFour" onclick="buttonFour()">Four</button>  -->
-    <script>
-        
-        let buttonData = ["One", "Two", "Three", "Four", "Five"];
-        let buttonDataDiv = document.querySelector("#buttonDataDiv");
-        let buttonsDiv = document.querySelector("#buttonsDiv");
-        // let i = 0; 
-        // while (i<buttonData.length){
-
-        //     i++;
-        // }
-        function buttonClick(e) {
-            console.log(e.target.innerHTML);
-            buttonDataDiv.innerHTML = e.target.innerHTML;
-        }
-        for (let i = 0; i < buttonData.length; i++) {
-            let buttonObj = document.createElement("button");
-            buttonObj.innerHTML = buttonData[i];
-            buttonObj.addEventListener("CLick", buttonClick);
-            buttonsDiv.append(buttonObj);
-
-        }
-        // function buttonClick(e){
-        //     console.log(e)
-
-        // }
-        // function buttonOne(){
-        //     buttonDataDiv.innerHTML = "One";
-        // }
-        // function buttonTwo(){
-        //     buttonDataDiv.innerHTML = "Two";
-        // }
-        // function buttonThree(){
-        //     buttonDataDiv.innerHTML = "Three";
-        // }
-        // function buttonFour(){
-        //     buttonDataDiv.innerHTML = "Four";
-        // }
-    </script>
+    <input id="inputElement" type="text">
+    <button id="passwordButton">Submit</button>
+    <div id="resultDiv"></div>
+    <div id="roomRoot"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
